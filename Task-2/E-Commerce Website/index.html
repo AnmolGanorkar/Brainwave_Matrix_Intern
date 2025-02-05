@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | watches.in</title>
+  </head>
+  <body background="black">
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">watches.in</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#product">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav__search" id="nav-search">
+        <input type="text" placeholder="Search" />
+        <span><i class="ri-search-2-line"></i></span>
+      </div>
+    </nav>
+
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="assets/header.jpg" alt="header" />
+      </div>
+      <div class="header__content">
+        <div>
+          <h1>Discover the elegance of time.</h1>
+          <p>
+            We offer a curated selection of luxury watches, designed to complement your style and sophistication.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container deals__container">
+      <div class="deals__card">
+        <h2 class="section__header">Exclusive Deals</h2>
+        <p>Experience the best deals on luxury watches, exclusively for you.
+        </p>
+      </div>
+      <div class="deals__card">
+        <span><i class="ri-cash-line"></i></span>
+        <h4>10% cashback</h4>
+        <p>Earn a 10% cashback reward on every watch purchase you make!</p>
+      </div>
+      <div class="deals__card">
+        <span><i class="ri-calendar-schedule-line"></i></span>
+        <h4>30 day terms</h4>
+        <p>
+          Take advantage of our 30-day payment terms, completely interest-free!
+        </p>
+      </div>
+      <div class="deals__card">
+        <span><i class="ri-money-rupee-circle-line"></i></span>
+        <h4>Save big</h4>
+        <p>
+          Discover unbeatable prices and save big on top-quality watches!
+        </p>
+      </div>
+    </section>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__header">
+        <div>
+          <h2 class="section__header">About us</h2>
+          <p class="section__description">
+            We are passionate about bringing you the finest timepieces from around the world, combining elegance and functionality.
+          </p>
+        </div>
+        <button class="about__btn">Learn More</button>
+      </div>
+      <div class="about__content">
+        <div class="about__grid">
+          <div class="about__card">
+            <h3>1.</h3>
+            <h4>Who we are</h4>
+            <p>
+              We are a team of watch enthusiasts dedicated to providing you with the best selection of luxury watches.
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>2.</h3>
+            <h4>Our Collection</h4>
+            <p>
+              We offer a wide range of luxury watches to suit every style.
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>3.</h3>
+            <h4>Why Choose Us</h4>
+            <p>Experience the finest craftsmanship and timeless designs.</p>
+          </div>
+          <div class="about__card">
+            <h3>4.</h3>
+            <h4>Customer Satisfaction</h4>
+            <p>
+              Our dedicated team ensures you find the perfect watch for any occasion.
+            </p>
+          </div>
+        </div>
+        <div class="about__image">
+          <img src="assets/about.png" alt="about watches" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container product__container" id="product">
+      <h2 class="section__header">Products</h2>
+      <div class="product__grid">
+        <div class="product__card">
+          <h4>Classic Watch</h4>
+          <p>$250.00</p>
+          <img src="assets/product-1.png" alt="product" />
+        </div>
+        <div class="product__card">
+          <h4>Sport Watch</h4>
+          <p>$300.00</p>
+          <img src="assets/product-2.png" alt="product" />
+        </div>
+        <div class="product__card">
+          <h4>Luxury Watch</h4>
+          <p>$500.00</p>
+          <img src="assets/product-3.png" alt="product" />
+        </div>
+        <div class="product__card">
+          <h4>Smart Watch</h4>
+          <p>$200.00</p>
+          <img src="assets/product-4.png" alt="product" />
+        </div>
+        <div class="product__card">
+          <h4>Vintage Watch</h4>
+          <p>$450.00</p>
+          <img src="assets/product-5.png" alt="product" />
+        </div>
+        <div class="product__card">
+          <h4>Modern Watch</h4>
+          <p>$350.00</p>
+          <img src="assets/product-6.png" alt="product" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container">
+      <div class="client__content">
+        <h2 class="section__header">What our happy clients say</h2>
+        <p class="section__description">
+          Customer Testimonials Showcasing Our Dedication to Quality, Outstanding Service, and Complete Satisfaction.
+        </p>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="assets/user-1.webp" alt="user" />
+                <div>
+                  <p>
+                    Watches.in transformed my collection with their exquisite timepieces. The 10% cashback was an amazing bonus!
+                  </p>
+                  <h4>Donald Trump</h4>
+                  <h5>Real Estate Agent</h5>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="assets/user-2.jpg" alt="user" />
+                <div>
+                  <p>
+                    Outstanding quality and service! The watches are stunning, and the 30-day payment terms made the entire experience so convenient.
+                  </p>
+                  <h4>Sam Smith</h4>
+                  <h5>Interior Designer</h5>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="assets/user-3.jpg" alt="user" />
+                <div>
+                  <p>
+                    The 30-day payment terms made purchasing my dream watch stress-free. Highly recommend!
+                  </p>
+                  <h4>Kim Lung</h4>
+                  <h5>Entrepreneur</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">watches.in</a>
+          </div>
+          <p>
+            Join us in discovering the perfect watch that effortlessly combines elegance and functionality.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-pinterest-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul class="footer__links">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Help Center</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Resources</h4>
+          <ul class="footer__links">
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <ul class="footer__links">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Affiliates</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
